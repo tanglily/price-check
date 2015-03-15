@@ -14,13 +14,14 @@
     <h1>价格排查</h1>
 
     <div>
-        <label for="item">宝贝页面地址或id:</label>
-        <textarea id="item" value="41419789660"></textarea>
+        <label for="source">HTML代码</label>
+        <textarea id="source"></textarea>
     </div>
     <div>
         <button id="btn">获取价格</button>
     </div>
-    <div id="price"></div>
+    <pre id="urls"></pre>
+    <pre id="prices"></pre>
 
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
@@ -28,6 +29,7 @@
     <!-- endbuild -->
 
     <!-- build:js scripts/popup.js -->
+    <script src="scripts/jquery-2.1.3.js"></script>
     <script src="scripts/popup.js"></script>
     <!-- endbuild -->
   </body>
